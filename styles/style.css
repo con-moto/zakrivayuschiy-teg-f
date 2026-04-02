@@ -77,7 +77,7 @@
   mix-blend-mode: hard-light;
   text-transform: uppercase;
   text-shadow:
-    -1px -1px var(--stroke-color), 
+    -1px -1px var(--stroke-color),
     1px 1px var(--stroke-color);
   z-index: 2;
 }
@@ -327,13 +327,16 @@
   line-height: 150%;
 }
 
-@supports((text-stroke: 1px var(--stroke-color)) or (-webkit-text-stroke: 1px var(--stroke-color))) {
+@supports (
+  (text-stroke: 1px var(--stroke-color)) or
+    (-webkit-text-stroke: 1px var(--stroke-color))
+) {
   .image-label {
     -webkit-text-stroke: 1px var(--stroke-color);
     text-stroke: 1px var(--stroke-color);
     text-shadow: none;
   }
-} 
+}
 
 /* при @media (width <= 375px) изменения происходят при эмуляции только на ширине 374px, поэтому ставлю на пиксель больше */
 

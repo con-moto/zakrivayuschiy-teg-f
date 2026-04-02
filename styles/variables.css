@@ -3,9 +3,22 @@
   --accent-font: 'Press Start 2P';
   --card-wght: 410;
   --card-title-wght: 715;
-  --background-gradient: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, rgb(211 211 211 / 0) 2px, rgb(211 211 211 / 0) 4px),
-  repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, rgb(211 211 211 / 0) 2px, rgb(211 211 211 / 0) 4px),
-  linear-gradient(#e7e7e7 0%,#e7e7e7 0.01%,#1a1a1a 100%);
+  --background-gradient:
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      rgb(211 211 211 / 0) 2px,
+      rgb(211 211 211 / 0) 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      rgb(211 211 211 / 0) 2px,
+      rgb(211 211 211 / 0) 4px
+    ),
+    linear-gradient(#e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
   --main-color: #000;
   --background-color: #fff;
   --header-logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
