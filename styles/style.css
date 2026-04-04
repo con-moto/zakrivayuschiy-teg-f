@@ -136,7 +136,7 @@
 .card__button-wrapper {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 5px;
   align-self: flex-end;
 }
 
@@ -183,7 +183,12 @@
   background-color: transparent;
   border: 2px solid transparent;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: border 0.3s ease;
+  inline-size: 39px;
+  block-size: 39px;
 }
 
 .card__icon-button:focus {
